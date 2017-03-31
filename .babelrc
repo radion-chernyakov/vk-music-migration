@@ -1,6 +1,22 @@
 {
   "presets": [
-    ["es2015", { module: "false" }]
+    [
+      "es2015",
+      {
+        "module": "false"
+      }
+    ],
+    "flow",
+    "react"
   ],
-  plugins: ["transform-flow-strip-types"]
+  "plugins": [
+    "transform-flow-strip-types"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "react-hmre"
+      ]
+    }
+  }
 }
