@@ -27,6 +27,7 @@
     "babel-preset-react": "^6.23.0",
     "babel-preset-react-hmre": "^1.1.1",
     "flow-bin": "^0.42.0",
+    "flow-interfaces-chrome": "^0.3.1",
     "tcomb": "^3.2.20"
   }
 }

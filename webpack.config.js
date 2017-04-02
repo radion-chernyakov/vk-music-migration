@@ -56,4 +56,5 @@ module.exports = {
     }),
     new WriteFilePlugin(),
   ],
+  devtool: 'cheap-module-eval-source-map'
 };

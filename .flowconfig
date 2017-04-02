@@ -3,5 +3,5 @@
 [include]
 
 [libs]
-
+node_modules/flow-interfaces-chrome/interfaces/
 [options]
