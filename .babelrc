@@ -11,6 +11,7 @@
   ],
   "plugins": [
     "transform-flow-strip-types",
+    "transform-async-generator-functions"
   ],
   "env": {
     "development": {
